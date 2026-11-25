@@ -1,54 +1,47 @@
 <!doctype html>
-<html lang="zh-Hant">
+<html lang="zh-Hant-TW">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>問筊　支援與常見問題</title>
+<title>問筊 支援與常見問題｜旭禾山有限公司</title>
 <meta name="description" content="問筊 App 的支援頁：擲筊、參拜、抽籤、打小人、提醒、小工具、資料與支持開發團隊的常見問題。">
-<style>
-  /* 前面這幾行和 privacy.html 一樣，兩頁才像同一個網站；要改就兩頁一起改 */
-  :root { color-scheme: light dark; --paper: #F5F0E6; --ink: #2B2622; --soft: #6F665C; --accent: #B5382B; }
-  @media (prefers-color-scheme: dark) { :root { --paper: #15110E; --ink: #EDE6DA; --soft: #A3998C; --accent: #DA5B43; } }
-  body { margin: 0; background: var(--paper); color: var(--ink); font: 17px/1.9 "Songti TC", "Noto Serif TC", serif; }
-  main { max-width: 40em; margin: 0 auto; padding: 32px 20px 64px; }
-  h1 { font-size: 28px; line-height: 1.4; margin: 0 0 4px; }
-  h2 { font-size: 19px; margin: 36px 0 8px; }
-  p, li { margin: 0 0 10px; }
-  ul { padding-left: 1.3em; margin: 0 0 10px; }
-  .updated { color: var(--soft); font-size: 14px; }
-  a { color: var(--accent); }
-  /* 這一頁多出來的：站內連結、目錄、題目、提醒框 */
-  :root { --line: rgba(43, 38, 34, 0.16); --wash: rgba(181, 56, 43, 0.08); }
-  @media (prefers-color-scheme: dark) { :root { --line: rgba(237, 230, 218, 0.18); --wash: rgba(218, 91, 67, 0.14); } }
-  body { -webkit-text-size-adjust: 100%; overflow-wrap: anywhere; }
-  nav.site { display: flex; flex-wrap: wrap; gap: 4px 16px; align-items: baseline; margin: 0 0 28px; padding: 0 0 12px; border-bottom: 1px solid var(--line); font-size: 15px; line-height: 1.6; }
-  nav.site .name { font-weight: 700; margin-right: auto; }
-  nav.site [aria-current] { color: var(--ink); text-decoration: none; }
-  h2 { margin-top: 44px; padding-top: 20px; border-top: 1px solid var(--line); scroll-margin-top: 12px; }
-  h3 { font-size: 17px; line-height: 1.6; margin: 26px 0 6px; scroll-margin-top: 12px; }
-  ol { padding-left: 1.5em; margin: 0 0 10px; }
-  li > ul { margin: 6px 0 0; }
-  .toc { list-style: none; display: flex; flex-wrap: wrap; gap: 6px 8px; margin: 18px 0 0; padding: 0; font-size: 15px; line-height: 1.6; }
-  .toc li { margin: 0; }
-  .toc a { display: inline-block; padding: 5px 12px; border: 1px solid var(--line); border-radius: 999px; text-decoration: none; }
-  .notice { margin: 0 0 24px; padding: 12px 16px; border: 2px solid var(--accent); border-radius: 10px; background: var(--wash); color: var(--accent); font-size: 18px; line-height: 1.6; text-align: center; }
-  footer { margin-top: 48px; padding-top: 16px; border-top: 1px solid var(--line); color: var(--soft); font-size: 14px; }
-</style>
+<link rel="canonical" href="https://sunrise-growth.com/support.html">
+<meta name="theme-color" content="#edf1f0" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0d1520" media="(prefers-color-scheme: dark)">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="stylesheet" href="site.css">
+<script>document.documentElement.classList.add("js")</script>
+<script src="site.js" defer></script>
 </head>
 <body>
-<main>
-<!-- 待填：客服信箱還沒填之前，這一塊要留著。信箱填好之後，把這一塊（下面這一行）整個刪掉。 -->
-<p class="notice"><strong>網站建置中，聯絡信箱即將補上</strong></p>
-<nav class="site" aria-label="站內連結">
-<span class="name">問筊</span>
-<a href="index.html">旭禾山有限公司</a>
-<a href="support.html" aria-current="page">支援與常見問題</a>
+<a class="skip" href="#main">跳到主要內容</a>
+<header class="site-header">
+<div class="wrap">
+<a class="brand" href="index.html" aria-label="旭禾山有限公司 首頁">
+<svg class="brand-mark" viewBox="0 0 64 64" aria-hidden="true"><defs><clipPath id="mark-clip"><rect width="64" height="64" rx="15"/></clipPath></defs><g clip-path="url(#mark-clip)"><rect width="64" height="64" class="f-sky1"/><circle cx="39" cy="31" r="12" class="f-sun"/><path d="M0 45 18 27 27 36 36 28 52 41 64 34V64H0Z" class="f-far"/><path d="M0 52 15 46 28 50 44 44 64 50V64H0Z" class="f-field"/></g><rect x="4" y="4" width="56" height="56" rx="11" class="s-rim" stroke-width="2.2"/></svg>
+<span class="brand-text"><span class="brand-zh">旭禾山有限公司</span><span class="brand-en" lang="en">Sunrise Growth Co., Ltd.</span></span>
+</a>
+<nav class="site-nav" aria-label="主要">
+<a href="index.html">首頁</a>
+<a href="wenjiao.html">問筊</a>
+<a href="support.html" aria-current="page">支援</a>
 <a href="privacy.html">隱私權政策</a>
 </nav>
-<h1>問筊　支援與常見問題</h1>
+</div>
+</header>
+
+<main id="main" class="wrap">
+<div class="doc-head">
+<h1><span class="tag-plate">問筊</span>支援與常見問題</h1>
 <p class="updated">最後更新：2026 年 11 月 25 日</p>
-<p>「問筊」是台灣廟宇文化的模擬與體驗：擲筊、參拜、抽籤、打小人，還有每天的農曆與節氣。這一頁整理常見的問題；找不到答案，歡迎寫信給我們。</p>
-<ul class="toc" aria-label="這一頁的內容">
+<p class="doc-intro">「問筊」是台灣廟宇文化的模擬與體驗：擲筊、參拜、抽籤、打小人，還有每天的農曆與節氣。這一頁整理常見的問題；找不到答案，歡迎寫信給我們。</p>
+</div>
+
+<div class="doc-body">
+<nav class="directory plate" aria-labelledby="toc-title">
+<h2 id="toc-title">目錄</h2>
+<ol>
 <li><a href="#start">開始使用</a></li>
 <li><a href="#jiao">擲筊</a></li>
 <li><a href="#altar">參拜</a></li>
@@ -60,39 +53,71 @@
 <li><a href="#support-developer">支持開發團隊</a></li>
 <li><a href="#results">關於結果</a></li>
 <li><a href="#contact">聯絡我們</a></li>
-</ul>
-<h2 id="start">開始使用</h2>
-<h3 id="q1">需要什麼才能用？</h3>
+</ol>
+</nav>
+<div class="doc-content">
+<p class="doc-tools"><button type="button" class="text-button" data-toggle-all aria-expanded="false" hidden>全部展開</button></p>
+<section id="start" aria-labelledby="start-title">
+<h2 id="start-title">開始使用</h2>
+<details class="qa" id="q1">
+<summary><h3>需要什麼才能用？</h3></summary>
+<div class="qa-body">
 <p>iPhone，iOS 26 或以上。介面是繁體中文。不用註冊帳號，不連網路也能用；只有「支持開發團隊」付款時需要網路。</p>
-<h3 id="q2">第一次打開，廟祝問的資料一定要填嗎？</h3>
+</div>
+</details>
+<details class="qa" id="q2">
+<summary><h3>第一次打開，廟祝問的資料一定要填嗎？</h3></summary>
+<div class="qa-body">
 <p>不用。稱呼、性別、生日與時辰，每一題都可以按「先不說」，右上角也可以整個「略過」。填了的話，會用在名帖、日曆頁的招呼語，還有稟報的範例句裡。之後可以到「設定 › 個人資料」修改或清除。</p>
-<h3 id="q3">設定在哪裡？</h3>
+</div>
+</details>
+<details class="qa" id="q3">
+<summary><h3>設定在哪裡？</h3></summary>
+<div class="qa-body">
 <p>每一頁右上角的齒輪。</p>
-<h2 id="jiao">擲筊</h2>
-<h3 id="q4">怎麼擲筊？</h3>
+</div>
+</details>
+</section>
+<section id="jiao" aria-labelledby="jiao-title">
+<h2 id="jiao-title">擲筊</h2>
+<details class="qa" id="q4">
+<summary><h3>怎麼擲筊？</h3></summary>
+<div class="qa-body">
 <ol>
 <li>點下面的「擲筊」分頁，選一位神明，按「開始請示」。</li>
 <li>第一次會帶你走一遍：上香靜心（可以按「略過」）、在心裡稟報。</li>
-<li>到了擲筊的畫面，三種擲法都可以：
-<ul>
-<li>點一下畫面的任何地方。</li>
-<li>往上滑。滑得越快，筊杯拋得越高。</li>
-<li>握緊手機搖一搖。手機不需要、也不要拋出去。</li>
-</ul>
-</li>
+<li>到了擲筊的畫面，三種擲法都可以：<ul><li>點一下畫面的任何地方。</li><li>往上滑。滑得越快，筊杯拋得越高。</li><li>握緊手機搖一搖。手機不需要、也不要拋出去。</li></ul></li>
 <li>筊杯還在空中時再點一下，可以直接看結果。</li>
 </ol>
 <p>結果出來之後，可以「再擲一次」、記下剛才問的事、分享卡片，或按「完成」。</p>
-<h3 id="q5">一般請示和慎重請示有什麼不同？</h3>
+</div>
+</details>
+<details class="qa" id="q5">
+<summary><h3>一般請示和慎重請示有什麼不同？</h3></summary>
+<div class="qa-body">
 <p>一般請示擲一次就有結果，可以再擲。慎重請示要連續擲出三次聖杯才算數；中途出現笑杯、陰杯或立杯，這一次請示就結束。</p>
 <p>到「設定 › 擲筊與抽籤 › 請示方式」切換。同一頁的「每次都走完整儀式」打開之後，每次請示都會先上香靜心。</p>
-<h3 id="q6">搖手機沒有反應，或不想用搖的？</h3>
+</div>
+</details>
+<details class="qa" id="q6">
+<summary><h3>搖手機沒有反應，或不想用搖的？</h3></summary>
+<div class="qa-body">
 <p>搖的時候握緊手機、連續搖幾下；輕輕晃一下不會擲出。</p>
 <p>不想用搖的，到「設定 › 擲筊與抽籤」關掉「搖一搖手機來擲筊、抽籤」。關掉之後搖手機不會有反應，照樣可以用點的。</p>
-<h3 id="q7">有不懂的想問？</h3>
+</div>
+</details>
+<details class="qa" id="q7">
+<summary><h3>有不懂的想問？</h3></summary>
+<div class="qa-body">
 <p>「擲筊」分頁最上面有廟祝，點一下，就有八個常見的問題可以選。更完整的說明在「設定 › 擲筊小冊」。</p>
-<h2 id="altar">參拜</h2>
-<h3 id="q8">怎麼擺供品、參拜？</h3>
+</div>
+</details>
+</section>
+<section id="altar" aria-labelledby="altar-title">
+<h2 id="altar-title">參拜</h2>
+<details class="qa" id="q8">
+<summary><h3>怎麼擺供品、參拜？</h3></summary>
+<div class="qa-body">
 <ol>
 <li>點「參拜」分頁。供桌下面有一排神明，點一下就換一位；在供桌上左右滑也可以。</li>
 <li>按「開始參拜」，再按「選供品」。供品分成水果、糕粿、甜品、糖果零食、飲品、鹹點、鮮花、金紙八類，點一下多一份；選好按「兌換」。</li>
@@ -102,7 +127,11 @@
 </ol>
 <p>不想擺供品，可以按「直接上香」。</p>
 <p>要拿掉桌上的供品，點它一下，再點出現的叉叉。這一次才選、還沒完成參拜的，拿掉不會扣虔誠值；已經供上去的拿掉之後，虔誠值不會退回。</p>
-<h3 id="q9">虔誠值怎麼來？可以用買的嗎？</h3>
+</div>
+</details>
+<details class="qa" id="q9">
+<summary><h3>虔誠值怎麼來？可以用買的嗎？</h3></summary>
+<div class="qa-body">
 <p>不能買。虔誠值只有這幾個來源：</p>
 <ul>
 <li>第一次使用送 2,000。</li>
@@ -111,36 +140,64 @@
 <li>升上新的修行位階時，會送一筆。</li>
 </ul>
 <p>虔誠值用來換供品；上香不用虔誠值。供品是一份心意，不影響擲筊與抽籤的結果。</p>
-<h3 id="q10">修行位階是什麼？</h3>
+</div>
+</details>
+<details class="qa" id="q10">
+<summary><h3>修行位階是什麼？</h3></summary>
+<div class="qa-body">
 <p>敲木魚、打坐賺到多少虔誠值，修行就加多少；換供品花掉的虔誠值，不會讓修行變少。修行到了門檻就升一階，一共九階：善男信女、香客、信士（信女）、弟子、爐下弟子、師兄（師姐）、大德、頭家、爐主。</p>
 <p>升上新的位階會多兩樣供桌的擺設或款式。點參拜頁左上角的印章，打開「參拜足跡」，可以看位階、選用擺設，也看得到連續參拜的天數與供品圖鑑。位階不影響擲筊與抽籤的結果。</p>
-<h2 id="lots">抽籤</h2>
-<h3 id="q11">怎麼抽籤？</h3>
+</div>
+</details>
+</section>
+<section id="lots" aria-labelledby="lots-title">
+<h2 id="lots-title">抽籤</h2>
+<details class="qa" id="q11">
+<summary><h3>怎麼抽籤？</h3></summary>
+<div class="qa-body">
 <ol>
 <li>點「參拜」分頁，先換到想抽籤的那一位神明。</li>
 <li>點供桌左後方的籤筒。</li>
 <li>按「搖籤筒」（點籤筒或搖手機也可以），抽出一支之後按「看籤詩」。</li>
 </ol>
 <p>籤詩頁有直排的籤詩、等級，以及白話大意、提醒與分項參考。下面可以「記下問題」或「分享」。</p>
-<h3 id="q12">每位神明抽的是哪一套籤？</h3>
+</div>
+</details>
+<details class="qa" id="q12">
+<summary><h3>每位神明抽的是哪一套籤？</h3></summary>
+<div class="qa-body">
 <ul>
 <li>觀音：觀音一百籤</li>
 <li>關公：關帝一百籤</li>
 <li>月老：月老聖籤</li>
 <li>媽祖、土地公、文昌、天公、三太子、財神爺、濟公、太歲、虎爺：六十甲子籤</li>
 </ul>
-<h3 id="q13">想照廟裡的做法，先擲筊再抽？</h3>
+</div>
+</details>
+<details class="qa" id="q13">
+<summary><h3>想照廟裡的做法，先擲筊再抽？</h3></summary>
+<div class="qa-body">
 <p>到「設定 › 擲筊與抽籤 › 抽籤方式」選：</p>
 <ul>
 <li>直接抽：搖一搖籤筒，抽到哪一支就是哪一支。</li>
 <li>擲筊確認：先擲筊請示，抽到後一次聖杯確認。</li>
 <li>三聖杯確認：抽到後連續三次聖杯才算數，可能要多抽幾次。</li>
 </ul>
-<h3 id="q14">籤詩和我在廟裡看到的不太一樣？</h3>
+</div>
+</details>
+<details class="qa" id="q14">
+<summary><h3>籤詩和我在廟裡看到的不太一樣？</h3></summary>
+<div class="qa-body">
 <p>同一套籤，各宮廟的字句、順序和解法不盡相同。App 裡的原文依台灣通行的版本，並和其他版本比對過；白話解說是我們寫的其中一種讀法。</p>
 <p>觀音一百籤、關帝一百籤的等級是這兩套籤通行的標示。六十甲子籤、月老聖籤傳統上不印等級，籤紙上的「上上、上籤、中籤、下籤」是我們依籤意整理的，不是廟裡的標示。</p>
-<h2 id="xiaoren">打小人</h2>
-<h3 id="q15">打小人怎麼玩？</h3>
+</div>
+</details>
+</section>
+<section id="xiaoren" aria-labelledby="xiaoren-title">
+<h2 id="xiaoren-title">打小人</h2>
+<details class="qa" id="q15">
+<summary><h3>打小人怎麼玩？</h3></summary>
+<div class="qa-body">
 <p>打小人是流傳在香港與台灣的民俗，多在驚蟄前後：用鞋子拍打紙做的小人，把悶氣打在紙上，最後燒掉。</p>
 <ol>
 <li>點「打小人」分頁。下面一排可以換小人，一共五個造型。</li>
@@ -148,13 +205,27 @@
 <li>在下面選一樣道具，點小人就動手。也可以直接用手：手指橫著快速劃過他、按住他不放、抓住他拖走再用力放開、用兩根手指捏他、搖一搖手機。</li>
 <li>打夠了按「送走小人」，或直接把他拖進火盆。</li>
 </ol>
-<h3 id="q16">寫在小人身上的名字會留下來嗎？</h3>
+</div>
+</details>
+<details class="qa" id="q16">
+<summary><h3>寫在小人身上的名字會留下來嗎？</h3></summary>
+<div class="qa-body">
 <p>不會。按「取名字」可以在小人胸前寫八個字以內的綽號，它只留在當下這一次，送走之後就清掉，不會保存，也沒有分享的功能。App 只會記「今年送走幾個小人」。</p>
 <p>打的是紙，傳統上不指名道姓；請用綽號，不要寫本名。</p>
-<h2 id="calendar">日曆、提醒與小工具</h2>
-<h3 id="q17">每日佳句可以自己換一句嗎？</h3>
+</div>
+</details>
+</section>
+<section id="calendar" aria-labelledby="calendar-title">
+<h2 id="calendar-title">日曆、提醒與小工具</h2>
+<details class="qa" id="q17">
+<summary><h3>每日佳句可以自己換一句嗎？</h3></summary>
+<div class="qa-body">
 <p>沒有手動換的按鈕。每次打開或回到 App，會自動換一句；新的一天會先看到當天的那一句。</p>
-<h3 id="q18">提醒怎麼開、怎麼關？</h3>
+</div>
+</details>
+<details class="qa" id="q18">
+<summary><h3>提醒怎麼開、怎麼關？</h3></summary>
+<div class="qa-body">
 <p>第一次進到主畫面時，廟祝會問要不要每天提醒；按「好，提醒我」再允許通知就開了，按「先不用」就不會再問。</p>
 <p>之後隨時可以到「設定 › 聲音與提醒」調整：</p>
 <ul>
@@ -162,7 +233,11 @@
 <li>「節氣提醒」：節氣當天提醒。</li>
 </ul>
 <p>開了卻沒有收到，請到 iPhone 的「設定 › 通知 › 問筊」確認有允許通知。提醒是手機自己排的，不需要網路。</p>
-<h3 id="q19">小工具怎麼加到主畫面或鎖定畫面？</h3>
+</div>
+</details>
+<details class="qa" id="q19">
+<summary><h3>小工具怎麼加到主畫面或鎖定畫面？</h3></summary>
+<div class="qa-body">
 <p>有兩個小工具：</p>
 <ul>
 <li>「今日」：今天的農曆、節氣與每日佳句。主畫面有小、中兩種尺寸，也可以放在鎖定畫面。</li>
@@ -180,21 +255,41 @@
 <li>點時間下方的小工具列，選「問筊」。</li>
 </ol>
 <p>App 裡的「設定 › 桌面小工具」也有同樣的步驟，還可以先看小工具的樣子。</p>
-<h2 id="display">聲音與畫面</h2>
-<h3 id="q20">沒有聲音？</h3>
+</div>
+</details>
+</section>
+<section id="display" aria-labelledby="display-title">
+<h2 id="display-title">聲音與畫面</h2>
+<details class="qa" id="q20">
+<summary><h3>沒有聲音？</h3></summary>
+<div class="qa-body">
 <p>聲音會跟著 iPhone 的靜音模式，先確認手機沒有開靜音。再到「設定 › 聲音與提醒」看「音效」「背景聲」有沒有打開；震動是同一頁的「觸覺回饋」。</p>
-<h3 id="q21">怎麼換成深色，或把字放大？</h3>
+</div>
+</details>
+<details class="qa" id="q21">
+<summary><h3>怎麼換成深色，或把字放大？</h3></summary>
+<div class="qa-body">
 <p>到「設定 › 畫面」：</p>
 <ul>
 <li>外觀：跟隨系統、明亮、深色。</li>
 <li>字體大小：跟隨系統、標準、大、特大。</li>
 <li>「顯示提示」關掉之後，各頁的說明小按鈕就不會出現。</li>
 </ul>
-<h2 id="data">紀錄與資料</h2>
-<h3 id="q22">擲筊和抽籤的紀錄在哪裡？</h3>
+</div>
+</details>
+</section>
+<section id="data" aria-labelledby="data-title">
+<h2 id="data-title">紀錄與資料</h2>
+<details class="qa" id="q22">
+<summary><h3>擲筊和抽籤的紀錄在哪裡？</h3></summary>
+<div class="qa-body">
 <p>「設定 › 請示紀錄」。可以依神明、方式、結果篩選，也可以看統計。點進一筆，可以改記下的問題、補寫事後回顧、分享卡片。</p>
 <p>不想留紀錄，到「設定 › 資料與隱私」關掉「保存請示紀錄」。</p>
-<h3 id="q23">怎麼刪除紀錄、清除資料？</h3>
+</div>
+</details>
+<details class="qa" id="q23">
+<summary><h3>怎麼刪除紀錄、清除資料？</h3></summary>
+<div class="qa-body">
 <ul>
 <li>刪除一筆：在「設定 › 請示紀錄」把那一筆往左滑，按「刪除」；或點進去按「刪除這筆紀錄」。</li>
 <li>刪除全部的請示與抽籤紀錄：「設定 › 資料與隱私 › 清除所有紀錄」。</li>
@@ -202,37 +297,89 @@
 <li>清除個人資料：「設定」最上面的名帖 ›「清除個人資料」。</li>
 <li>刪除 App 會把全部資料一起刪掉。</li>
 </ul>
-<h3 id="q24">刪掉 App 或換手機，資料還在嗎？</h3>
+</div>
+</details>
+<details class="qa" id="q24">
+<summary><h3>刪掉 App 或換手機，資料還在嗎？</h3></summary>
+<div class="qa-body">
 <p>資料只存在你的這支 iPhone 上，App 沒有雲端同步，我們這邊也沒有你的資料，所以沒有辦法替你找回。刪掉 App，資料就一起刪除了。換手機時資料會不會跟著過去，要看 iPhone 自己的備份與轉移。</p>
-<h3 id="q25">你們會收集我的資料嗎？</h3>
+</div>
+</details>
+<details class="qa" id="q25">
+<summary><h3>你們會收集我的資料嗎？</h3></summary>
+<div class="qa-body">
 <p>不會。App 不用帳號，沒有廣告，也沒有分析工具；紀錄與個人資料都只存在你的 iPhone 上，我們看不到。完整的說明在<a href="privacy.html">隱私權政策</a>，App 裡的「設定 › 資料與隱私 › 隱私權政策」也看得到。</p>
-<h2 id="support-developer">支持開發團隊</h2>
-<h3 id="q26">「支持開發團隊」是什麼？</h3>
+</div>
+</details>
+</section>
+<section id="support-developer" aria-labelledby="support-developer-title">
+<h2 id="support-developer-title">支持開發團隊</h2>
+<details class="qa" id="q26">
+<summary><h3>「支持開發團隊」是什麼？</h3></summary>
+<div class="qa-body">
 <p>參拜頁供桌右後方有一個箱子，點它會打開「支持開發團隊」，有三個金額可以選：一杯茶、一份點心、一頓飯，金額以畫面上顯示的為準。</p>
 <p>這是給這個 App 開發團隊的支持，不是捐給廟宇或任何團體。可以不付；不付，所有功能也一樣能用。</p>
-<h3 id="q27">付了之後會得到什麼？</h3>
+</div>
+</details>
+<details class="qa" id="q27">
+<summary><h3>付了之後會得到什麼？</h3></summary>
+<div class="qa-body">
 <p>不會換到任何東西：不加虔誠值、不升位階，也不影響擲筊與抽籤的結果。完成之後，畫面上只會出現一句「謝謝你的支持」。同一個金額可以重複支持。</p>
-<h3 id="q28">想退款怎麼辦？</h3>
+</div>
+</details>
+<details class="qa" id="q28">
+<summary><h3>想退款怎麼辦？</h3></summary>
+<div class="qa-body">
 <p>付款是 Apple 處理的。我們看不到你的付款資料，也沒有辦法替你退款。請到 Apple 的「報告問題」網頁 <a href="https://reportaproblem.apple.com">reportaproblem.apple.com</a>，用你的 Apple 帳號登入，選擇要求退款，再照畫面上的步驟送出。要不要退由 Apple 決定。</p>
-<h3 id="q29">畫面寫「現在連不上 App Store」或「在等待核准」？</h3>
+</div>
+</details>
+<details class="qa" id="q29">
+<summary><h3>畫面寫「現在連不上 App Store」或「在等待核准」？</h3></summary>
+<div class="qa-body">
 <ul>
 <li>「現在連不上 App Store，晚一點再試。」：先確認手機有連上網路，過一下子再按「再試一次」。</li>
 <li>「這一筆在等待核准，核准之後會自動完成。」：通常是家人共享開了「購買前詢問」。等家長核准之後會自動完成，不用再按一次。</li>
 </ul>
-<h2 id="results">關於結果</h2>
-<h3 id="q30">結果準嗎？</h3>
+</div>
+</details>
+</section>
+<section id="results" aria-labelledby="results-title">
+<h2 id="results-title">關於結果</h2>
+<details class="qa" id="q30">
+<summary><h3>結果準嗎？</h3></summary>
+<div class="qa-body">
 <p>擲筊與抽籤的結果，是手機上的亂數決定的；3D 動畫只是把結果演出來，並不代表神明真的回答。</p>
 <p>每一次擲筊，兩片筊各有一半的機會平面朝上，所以聖杯大約一半，笑杯、陰杯各約四分之一；立杯大約一千次出現一次。抽籤是每一支的機會都相同。你付不付費、擺什麼供品、位階多高，都不會改變這些機會。</p>
 <p>「問筊」是台灣廟宇文化的模擬與體驗，可以用它認識這些習俗、整理自己的想法。醫療、法律、財務等重要的決定，請以專業人士的意見為準。各地廟宇的禮俗不盡相同，和你熟悉的做法不一樣時，請以當地的習慣為準。</p>
-<h2 id="contact">聯絡我們</h2>
-<!-- 待填：客服信箱。把下面這一行的 <strong>…</strong> 換成
-     <a href="mailto:你的信箱">你的信箱</a>，再刪掉頁面最上面 class="notice" 的那一塊。 -->
-<p>有任何問題或建議，請寫信給我們：聯絡信箱即將補上。</p>
+</div>
+</details>
+</section>
+<section id="contact" aria-labelledby="contact-title">
+<h2 id="contact-title">聯絡我們</h2>
+<div class="contact-block">
+<p>有任何問題或建議，請寫信到：<a class="contact-mail" href="mailto:service@sunrise-growth.com">service@sunrise-growth.com</a></p>
 <p>「問筊」由旭禾山有限公司（Sunrise Growth Co., Ltd.）提供。</p>
 <p>來信時附上 iPhone 的機型、iOS 版本與 App 的版本（「設定」最下面看得到），我們比較好幫你看。</p>
-<footer>
-<a href="privacy.html">隱私權政策</a>
-</footer>
+</div>
+</section>
+</div>
+</div>
 </main>
+
+<footer class="site-footer">
+<div class="wrap footer-grid">
+<p class="footer-name">旭禾山有限公司<span lang="en">Sunrise Growth Co., Ltd.</span></p>
+<nav aria-label="頁尾">
+<ul class="footer-nav">
+<li><a href="index.html">首頁</a></li>
+<li><a href="wenjiao.html">問筊</a></li>
+<li><a href="support.html">支援</a></li>
+<li><a href="privacy.html">隱私權政策</a></li>
+<li><a href="mailto:service@sunrise-growth.com">service@sunrise-growth.com</a></li>
+</ul>
+</nav>
+<p class="footer-small">© 2026 旭禾山有限公司</p>
+</div>
+</footer>
 </body>
 </html>
