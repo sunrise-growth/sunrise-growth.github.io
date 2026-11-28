@@ -21,6 +21,22 @@
     window.addEventListener("hashchange", follow);
   }
 
+  /* 導覽列的「問筊」：點一下展開問筊介紹、支援、隱私權政策，點外面、按 Esc 或離開選單就收起來 */
+  var app = document.querySelector(".nav-app");
+  var appToggle = app && app.querySelector(".nav-app-toggle");
+  if (appToggle) {
+    var setOpen = function (open) {
+      app.classList.toggle("is-open", open);
+      appToggle.setAttribute("aria-expanded", open ? "true" : "false");
+    };
+    appToggle.addEventListener("click", function () { setOpen(!app.classList.contains("is-open")); });
+    document.addEventListener("click", function (event) { if (!app.contains(event.target)) setOpen(false); });
+    document.addEventListener("keydown", function (event) {
+      if (event.key === "Escape" && app.classList.contains("is-open")) { setOpen(false); appToggle.focus(); }
+    });
+    app.addEventListener("focusout", function (event) { if (!app.contains(event.relatedTarget)) setOpen(false); });
+  }
+
   /* 支援頁：題目可以收合；網址指到某一題時自動打開 */
   var questions = Array.prototype.slice.call(document.querySelectorAll("details.qa"));
   if (!questions.length) return;
