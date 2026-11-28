@@ -241,8 +241,8 @@ html[lang="en"] body { font-family: var(--latin), var(--font); font-weight: 400;
 html[lang="en"] .nav { letter-spacing: .06em; }
 html[lang="en"] .nav ul { gap: 30px; }
 html[lang="en"] .nav-sub { margin-left: 30px; padding-left: 30px; }
-html[lang="en"] .label, html[lang="en"] .group-name { letter-spacing: .12em; }
-html[lang="en"] .doc-section > .label { letter-spacing: .1em; }
+html[lang="en"] .label, html[lang="en"] .group-name { letter-spacing: .05em; }
+html[lang="en"] .doc-section > .label { letter-spacing: .05em; }
 html[lang="en"] .h1-statement { max-width: 22em; font-size: clamp(26px, 3.3vw, 48px); line-height: 1.4; letter-spacing: 0; }
 html[lang="en"] .h1-en { letter-spacing: .04em; }
 html[lang="en"] .statement { line-height: 1.5; letter-spacing: 0; }
@@ -263,7 +263,10 @@ html[lang="en"] .page-title { letter-spacing: .01em; }
 html[lang="en"] .page-intro, html[lang="en"] .qa h3 { letter-spacing: 0; }
 html[lang="en"] .qa h3, html[lang="en"] .hero-statement { font-weight: 400; }
 html[lang="en"] .toc-list a { letter-spacing: 0; }
-html[lang="en"] .footer-links, html[lang="en"] .hero-meta, html[lang="en"] .page-meta { letter-spacing: .06em; }
+html[lang="en"] .footer-links, html[lang="en"] .hero-meta, html[lang="en"] .page-meta { letter-spacing: .04em; }
+/* Latin text in the footer and captions: mixed-case Latin reads poorly with wide tracking (Chinese keeps its wider spacing) */
+html[lang="en"] .copyright, .copyright [lang="en"] { letter-spacing: .04em; }
+html[lang="en"] .gallery figcaption { letter-spacing: .03em; }
 html[lang="en"] .facts-row dt, html[lang="en"] .shot figcaption { letter-spacing: .08em; }
 
 @media (max-width: 1180px) {
